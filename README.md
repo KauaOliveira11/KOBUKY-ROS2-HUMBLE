@@ -10,31 +10,21 @@ This repository provides a guide and implementation for using **Kobuki packages 
 
 ## 🚀 Installation Guide
 
-Follow the steps below to install and use this repository.
+### 📦 Prerequisites
 
-## 📦 Prerequisites
-
-Make sure you have the following installed:
+Make sure you have:
 
 * Ubuntu 22.04
 * ROS 2 Humble
 * Git
-
-ROS 2 Humble is officially supported on Ubuntu systems and widely used for robotics development ([control.ros.org][1])
+* Zsh
 
 ---
 
 ## 📥 Clone the Repository
 
-Go to your ROS 2 workspace:
-
-```bash
+```bash id="4q9k8p"
 cd ~/ros2_ws/src
-```
-
-Clone this repository:
-
-```bash
 git clone https://github.com/KauaOliveira11/KOBUKY-ROS2-HUMBLE.git
 ```
 
@@ -42,9 +32,7 @@ git clone https://github.com/KauaOliveira11/KOBUKY-ROS2-HUMBLE.git
 
 ## 🔧 Install Dependencies
 
-Before building, install dependencies:
-
-```bash
+```bash id="3wczap"
 cd ~/ros2_ws
 rosdep update
 rosdep install --from-paths src --ignore-src -r -y
@@ -54,70 +42,77 @@ rosdep install --from-paths src --ignore-src -r -y
 
 ## 🛠️ Build the Workspace
 
-```bash
+```bash id="h4v7jg"
 colcon build
 ```
 
 ---
 
-## ⚙️ Source the Workspace
+## ⚙️ Source the Workspace (Zsh)
 
-```bash
-source install/setup.bash
+```bash id="4czmci"
+source install/setup.zsh
 ```
 
-(Optional - add to bashrc):
+To automatically source every time you open the terminal:
 
-```bash
-echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
+```bash id="l8hz9k"
+echo "source ~/ros2_ws/install/setup.zsh" >> ~/.zshrc
+```
+
+Then reload:
+
+```bash id="yssbdl"
+source ~/.zshrc
 ```
 
 ---
 
-## ▶️ Running the Project
+## ▶️ Running Kobuki
 
-After installation, you can run the packages:
+Start the Kobuki base node:
 
-```bash
-ros2 launch <package_name> <launch_file.py>
-```
-
-or
-
-```bash
-ros2 run <package_name> <node_name>
+```bash id="8e98we"
+ros2 launch kobuki_node kobuki_node-launch.py
 ```
 
 ---
 
 ## 🎮 Teleoperation
 
-This repository includes examples of how to control the Kobuki robot using teleop.
+Control the robot using your keyboard (with correct topic remapping):
 
-Example:
-
-```bash
-ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```bash id="wbd0wh"
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args --remap cmd_vel:=commands/velocity
 ```
 
 ---
 
-## 🤝 Contributing
+## 🔍 Debug Commands
 
-Feel free to contribute by opening issues or pull requests.
+Check active topics:
+
+```bash id="3x6l0u"
+ros2 topic list
+```
+
+See velocity commands being sent:
+
+```bash id="82ybw1"
+ros2 topic echo /commands/velocity
+```
 
 ---
 
 ## 📌 Notes
 
-* Make sure your robot (Kobuki) is properly connected
-* Check serial ports (e.g., `/dev/ttyUSB0`)
-* Always source your workspace before running commands
+* Ensure Kobuki is connected via USB
+* Check the port (e.g., `/dev/ttyUSB0`)
+* Kobuki uses `commands/velocity` instead of `cmd_vel`
+* Always source your workspace (`setup.zsh`) before running
 
 ---
 
 ## ✅ Done!
 
-Now you're ready to use Kobuki with ROS 2 Humble 🚀
-
-[1]: https://control.ros.org/humble/doc/getting_started/getting_started.html?utm_source=chatgpt.com "Getting Started — ROS2_Control: Humble Mar 2026 documentation"
+Now you can fully control your Kobuki robot using ROS 2 Humble using Zsh 🚀
