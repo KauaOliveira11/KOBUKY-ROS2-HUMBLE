@@ -48,22 +48,22 @@ colcon build
 
 ---
 
-## ⚙️ Source the Workspace (Zsh)
+## ⚙️ Source the Workspace (bash)
 
 ```bash id="4czmci"
-source install/setup.zsh
+source install/setup.bash
 ```
 
 To automatically source every time you open the terminal:
 
 ```bash id="l8hz9k"
-echo "source ~/ros2_ws/install/setup.zsh" >> ~/.zshrc
+echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
 ```
 
 Then reload:
 
 ```bash id="yssbdl"
-source ~/.zshrc
+source ~/.bashrc
 ```
 
 ---
@@ -109,7 +109,7 @@ ros2 topic echo /commands/velocity
 * Ensure Kobuki is connected via USB
 * Check the port (e.g., `/dev/ttyUSB0`)
 * Kobuki uses `commands/velocity` instead of `cmd_vel`
-* Always source your workspace (`setup.zsh`) before running
+* Always source your workspace (`setup.bash`) before running
 
 ---
 
