@@ -1,0 +1,106 @@
+[0.027s] Invoking command in '/home/fbot/kobuki_base_ros2/build/ecl_containers': AMENT_PREFIX_PATH=/home/fbot/kobuki_base_ros2/install/ecl_formatters:/home/fbot/kobuki_base_ros2/install/ecl_utilities:/home/fbot/kobuki_base_ros2/install/ecl_converters:/home/fbot/kobuki_base_ros2/install/ecl_exceptions:/home/fbot/kobuki_base_ros2/install/ecl_concepts:/home/fbot/kobuki_base_ros2/install/ecl_type_traits:/home/fbot/kobuki_base_ros2/install/ecl_errors:/home/fbot/kobuki_base_ros2/install/ecl_mpl:/home/fbot/kobuki_base_ros2/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fbot/kobuki_base_ros2/install/ecl_formatters:/home/fbot/kobuki_base_ros2/install/ecl_utilities:/home/fbot/kobuki_base_ros2/install/ecl_converters:/home/fbot/kobuki_base_ros2/install/ecl_exceptions:/home/fbot/kobuki_base_ros2/install/ecl_concepts:/home/fbot/kobuki_base_ros2/install/ecl_type_traits:/home/fbot/kobuki_base_ros2/install/ecl_errors:/home/fbot/kobuki_base_ros2/install/ecl_mpl:/home/fbot/kobuki_base_ros2/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/fbot/kobuki_base_ros2/install/ecl_formatters/lib:/home/fbot/kobuki_base_ros2/install/ecl_exceptions/lib:/home/fbot/kobuki_base_ros2/install/ecl_type_traits/lib:/home/fbot/kobuki_base_ros2/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/fbot/kobuki_base_ros2/install/ecl_type_traits/bin:/home/fbot/kobuki_base_ros2/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/fbot/kobuki_base_ros2/src/ecl_core/ecl_containers -DCMAKE_INSTALL_PREFIX=/home/fbot/kobuki_base_ros2/install/ecl_containers
+[0.092s] -- The C compiler identification is GNU 11.4.0
+[0.160s] -- The CXX compiler identification is GNU 11.4.0
+[0.169s] -- Detecting C compiler ABI info
+[0.238s] -- Detecting C compiler ABI info - done
+[0.245s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.245s] -- Detecting C compile features
+[0.245s] -- Detecting C compile features - done
+[0.248s] -- Detecting CXX compiler ABI info
+[0.334s] -- Detecting CXX compiler ABI info - done
+[0.342s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.342s] -- Detecting CXX compile features
+[0.343s] -- Detecting CXX compile features - done
+[0.346s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.547s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.631s] -- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+[0.636s] -- Found ecl_config: 1.2.0 (/home/fbot/kobuki_base_ros2/install/ecl_config/share/ecl_config/cmake)
+[0.638s] -- Found ecl_converters: 1.2.1 (/home/fbot/kobuki_base_ros2/install/ecl_converters/share/ecl_converters/cmake)
+[0.652s] -- Found ecl_formatters: 1.2.1 (/home/fbot/kobuki_base_ros2/install/ecl_formatters/share/ecl_formatters/cmake)
+[0.655s] -- Found ecl_utilities: 1.2.1 (/home/fbot/kobuki_base_ros2/install/ecl_utilities/share/ecl_utilities/cmake)
+[0.727s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.756s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.758s] -- Looking for pthread.h
+[0.833s] -- Looking for pthread.h - found
+[0.833s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.897s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.897s] -- Found Threads: TRUE  
+[0.910s] -- Configuring done
+[0.929s] -- Generating done
+[0.937s] -- Build files have been written to: /home/fbot/kobuki_base_ros2/build/ecl_containers
+[0.942s] Invoked command in '/home/fbot/kobuki_base_ros2/build/ecl_containers' returned '0': AMENT_PREFIX_PATH=/home/fbot/kobuki_base_ros2/install/ecl_formatters:/home/fbot/kobuki_base_ros2/install/ecl_utilities:/home/fbot/kobuki_base_ros2/install/ecl_converters:/home/fbot/kobuki_base_ros2/install/ecl_exceptions:/home/fbot/kobuki_base_ros2/install/ecl_concepts:/home/fbot/kobuki_base_ros2/install/ecl_type_traits:/home/fbot/kobuki_base_ros2/install/ecl_errors:/home/fbot/kobuki_base_ros2/install/ecl_mpl:/home/fbot/kobuki_base_ros2/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fbot/kobuki_base_ros2/install/ecl_formatters:/home/fbot/kobuki_base_ros2/install/ecl_utilities:/home/fbot/kobuki_base_ros2/install/ecl_converters:/home/fbot/kobuki_base_ros2/install/ecl_exceptions:/home/fbot/kobuki_base_ros2/install/ecl_concepts:/home/fbot/kobuki_base_ros2/install/ecl_type_traits:/home/fbot/kobuki_base_ros2/install/ecl_errors:/home/fbot/kobuki_base_ros2/install/ecl_mpl:/home/fbot/kobuki_base_ros2/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/fbot/kobuki_base_ros2/install/ecl_formatters/lib:/home/fbot/kobuki_base_ros2/install/ecl_exceptions/lib:/home/fbot/kobuki_base_ros2/install/ecl_type_traits/lib:/home/fbot/kobuki_base_ros2/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/fbot/kobuki_base_ros2/install/ecl_type_traits/bin:/home/fbot/kobuki_base_ros2/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/fbot/kobuki_base_ros2/src/ecl_core/ecl_containers -DCMAKE_INSTALL_PREFIX=/home/fbot/kobuki_base_ros2/install/ecl_containers
+[0.944s] Invoking command in '/home/fbot/kobuki_base_ros2/build/ecl_containers': AMENT_PREFIX_PATH=/home/fbot/kobuki_base_ros2/install/ecl_formatters:/home/fbot/kobuki_base_ros2/install/ecl_utilities:/home/fbot/kobuki_base_ros2/install/ecl_converters:/home/fbot/kobuki_base_ros2/install/ecl_exceptions:/home/fbot/kobuki_base_ros2/install/ecl_concepts:/home/fbot/kobuki_base_ros2/install/ecl_type_traits:/home/fbot/kobuki_base_ros2/install/ecl_errors:/home/fbot/kobuki_base_ros2/install/ecl_mpl:/home/fbot/kobuki_base_ros2/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fbot/kobuki_base_ros2/install/ecl_formatters:/home/fbot/kobuki_base_ros2/install/ecl_utilities:/home/fbot/kobuki_base_ros2/install/ecl_converters:/home/fbot/kobuki_base_ros2/install/ecl_exceptions:/home/fbot/kobuki_base_ros2/install/ecl_concepts:/home/fbot/kobuki_base_ros2/install/ecl_type_traits:/home/fbot/kobuki_base_ros2/install/ecl_errors:/home/fbot/kobuki_base_ros2/install/ecl_mpl:/home/fbot/kobuki_base_ros2/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/fbot/kobuki_base_ros2/install/ecl_formatters/lib:/home/fbot/kobuki_base_ros2/install/ecl_exceptions/lib:/home/fbot/kobuki_base_ros2/install/ecl_type_traits/lib:/home/fbot/kobuki_base_ros2/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/fbot/kobuki_base_ros2/install/ecl_type_traits/bin:/home/fbot/kobuki_base_ros2/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/fbot/kobuki_base_ros2/build/ecl_containers -- -j12 -l12
+[0.984s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.988s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.988s] [ 16%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_demo_formatters.dir/formatters.cpp.o[0m
+[1.844s] [ 22%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.918s] [ 22%] Built target gtest_main
+[1.994s] [ 27%] [32m[1mLinking CXX executable demo_formatters[0m
+[2.113s] [ 27%] Built target ecl_demo_formatters
+[4.599s] [ 33%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.670s] [ 33%] Built target gtest
+[4.698s] [ 38%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_stencil.dir/stencil.cpp.o[0m
+[4.698s] [ 44%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_arrays.dir/arrays.cpp.o[0m
+[4.698s] [ 50%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_container_converters.dir/container_converters.cpp.o[0m
+[4.701s] [ 55%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_arrays_mem_check.dir/arrays_mem_check.cpp.o[0m
+[4.705s] [ 61%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_fifo.dir/fifo.cpp.o[0m
+[4.707s] [ 66%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_push_and_pop.dir/push_and_pop.cpp.o[0m
+[6.035s] [ 72%] [32m[1mLinking CXX executable ecl_test_fifo[0m
+[6.263s] [ 77%] [32m[1mLinking CXX executable ecl_test_push_and_pop[0m
+[6.319s] [ 83%] [32m[1mLinking CXX executable ecl_test_arrays_mem_check[0m
+[6.409s] [ 88%] [32m[1mLinking CXX executable ecl_test_arrays[0m
+[6.481s] [ 88%] Built target ecl_test_fifo
+[6.525s] [ 94%] [32m[1mLinking CXX executable ecl_test_stencil[0m
+[6.537s] [100%] [32m[1mLinking CXX executable ecl_test_container_converters[0m
+[6.547s] [100%] Built target ecl_test_push_and_pop
+[6.629s] [100%] Built target ecl_test_arrays_mem_check
+[6.802s] [100%] Built target ecl_test_arrays
+[6.854s] [100%] Built target ecl_test_stencil
+[6.858s] [100%] Built target ecl_test_container_converters
+[6.879s] Invoked command in '/home/fbot/kobuki_base_ros2/build/ecl_containers' returned '0': AMENT_PREFIX_PATH=/home/fbot/kobuki_base_ros2/install/ecl_formatters:/home/fbot/kobuki_base_ros2/install/ecl_utilities:/home/fbot/kobuki_base_ros2/install/ecl_converters:/home/fbot/kobuki_base_ros2/install/ecl_exceptions:/home/fbot/kobuki_base_ros2/install/ecl_concepts:/home/fbot/kobuki_base_ros2/install/ecl_type_traits:/home/fbot/kobuki_base_ros2/install/ecl_errors:/home/fbot/kobuki_base_ros2/install/ecl_mpl:/home/fbot/kobuki_base_ros2/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fbot/kobuki_base_ros2/install/ecl_formatters:/home/fbot/kobuki_base_ros2/install/ecl_utilities:/home/fbot/kobuki_base_ros2/install/ecl_converters:/home/fbot/kobuki_base_ros2/install/ecl_exceptions:/home/fbot/kobuki_base_ros2/install/ecl_concepts:/home/fbot/kobuki_base_ros2/install/ecl_type_traits:/home/fbot/kobuki_base_ros2/install/ecl_errors:/home/fbot/kobuki_base_ros2/install/ecl_mpl:/home/fbot/kobuki_base_ros2/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/fbot/kobuki_base_ros2/install/ecl_formatters/lib:/home/fbot/kobuki_base_ros2/install/ecl_exceptions/lib:/home/fbot/kobuki_base_ros2/install/ecl_type_traits/lib:/home/fbot/kobuki_base_ros2/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/fbot/kobuki_base_ros2/install/ecl_type_traits/bin:/home/fbot/kobuki_base_ros2/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/fbot/kobuki_base_ros2/build/ecl_containers -- -j12 -l12
+[6.880s] Invoking command in '/home/fbot/kobuki_base_ros2/build/ecl_containers': AMENT_PREFIX_PATH=/home/fbot/kobuki_base_ros2/install/ecl_formatters:/home/fbot/kobuki_base_ros2/install/ecl_utilities:/home/fbot/kobuki_base_ros2/install/ecl_converters:/home/fbot/kobuki_base_ros2/install/ecl_exceptions:/home/fbot/kobuki_base_ros2/install/ecl_concepts:/home/fbot/kobuki_base_ros2/install/ecl_type_traits:/home/fbot/kobuki_base_ros2/install/ecl_errors:/home/fbot/kobuki_base_ros2/install/ecl_mpl:/home/fbot/kobuki_base_ros2/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fbot/kobuki_base_ros2/install/ecl_formatters:/home/fbot/kobuki_base_ros2/install/ecl_utilities:/home/fbot/kobuki_base_ros2/install/ecl_converters:/home/fbot/kobuki_base_ros2/install/ecl_exceptions:/home/fbot/kobuki_base_ros2/install/ecl_concepts:/home/fbot/kobuki_base_ros2/install/ecl_type_traits:/home/fbot/kobuki_base_ros2/install/ecl_errors:/home/fbot/kobuki_base_ros2/install/ecl_mpl:/home/fbot/kobuki_base_ros2/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/fbot/kobuki_base_ros2/install/ecl_formatters/lib:/home/fbot/kobuki_base_ros2/install/ecl_exceptions/lib:/home/fbot/kobuki_base_ros2/install/ecl_type_traits/lib:/home/fbot/kobuki_base_ros2/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/fbot/kobuki_base_ros2/install/ecl_type_traits/bin:/home/fbot/kobuki_base_ros2/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/fbot/kobuki_base_ros2/build/ecl_containers
+[6.891s] -- Install configuration: ""
+[6.891s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/share/ament_index/resource_index/package_run_dependencies/ecl_containers
+[6.891s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/share/ament_index/resource_index/parent_prefix_path/ecl_containers
+[6.892s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/share/ecl_containers/environment/ament_prefix_path.sh
+[6.892s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/share/ecl_containers/environment/ament_prefix_path.dsv
+[6.892s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/share/ecl_containers/environment/path.sh
+[6.893s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/share/ecl_containers/environment/path.dsv
+[6.894s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/share/ecl_containers/local_setup.bash
+[6.894s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/share/ecl_containers/local_setup.sh
+[6.894s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/share/ecl_containers/local_setup.zsh
+[6.894s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/share/ecl_containers/local_setup.dsv
+[6.894s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/share/ecl_containers/package.dsv
+[6.894s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/share/ament_index/resource_index/packages/ecl_containers
+[6.895s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/share/ecl_containers/cmake/ecl_containersExport.cmake
+[6.895s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/share/ecl_containers/cmake/ament_cmake_export_targets-extras.cmake
+[6.895s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/share/ecl_containers/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.896s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/share/ecl_containers/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.896s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/share/ecl_containers/cmake/ecl_containersConfig.cmake
+[6.896s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/share/ecl_containers/cmake/ecl_containersConfig-version.cmake
+[6.898s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/share/ecl_containers/package.xml
+[6.898s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/include/ecl/containers.hpp
+[6.898s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/include/ecl/containers/array.hpp
+[6.900s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/include/ecl/containers/converters.hpp
+[6.900s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/include/ecl/containers/definitions.hpp
+[6.900s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/include/ecl/containers/fifo.hpp
+[6.900s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/include/ecl/containers/initialiser.hpp
+[6.900s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/include/ecl/containers/push_and_pop.hpp
+[6.900s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/include/ecl/containers/stencil.hpp
+[6.900s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/include/ecl/containers/common/formatters.hpp
+[6.900s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/include/ecl/containers/array/array_dynamic_mem_check.hpp
+[6.901s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/include/ecl/containers/array/array_dynamic_no_mem_check.hpp
+[6.901s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/include/ecl/containers/array/array_mem_check.hpp
+[6.901s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/include/ecl/containers/array/array_no_mem_check.hpp
+[6.901s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/include/ecl/containers/array/converters.hpp
+[6.901s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/include/ecl/containers/array/formatters.hpp
+[6.901s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/include/ecl/containers/push_and_pop/formatters.hpp
+[6.901s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/include/ecl/containers/push_and_pop/push_and_pop_dynamic.hpp
+[6.901s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/include/ecl/containers/push_and_pop/push_and_pop_fixed.hpp
+[6.901s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/include/ecl/containers/stencil/converters.hpp
+[6.901s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/include/ecl/containers/stencil/formatters.hpp
+[6.901s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/include/ecl/containers/stencil/specialisations.hpp
+[6.901s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/include/ecl/containers/stencil/stencil.hpp
+[6.902s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_containers/lib/ecl_containers/demo_formatters
+[6.902s] -- Set runtime path of "/home/fbot/kobuki_base_ros2/install/ecl_containers/lib/ecl_containers/demo_formatters" to ""
+[6.906s] Invoked command in '/home/fbot/kobuki_base_ros2/build/ecl_containers' returned '0': AMENT_PREFIX_PATH=/home/fbot/kobuki_base_ros2/install/ecl_formatters:/home/fbot/kobuki_base_ros2/install/ecl_utilities:/home/fbot/kobuki_base_ros2/install/ecl_converters:/home/fbot/kobuki_base_ros2/install/ecl_exceptions:/home/fbot/kobuki_base_ros2/install/ecl_concepts:/home/fbot/kobuki_base_ros2/install/ecl_type_traits:/home/fbot/kobuki_base_ros2/install/ecl_errors:/home/fbot/kobuki_base_ros2/install/ecl_mpl:/home/fbot/kobuki_base_ros2/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fbot/kobuki_base_ros2/install/ecl_formatters:/home/fbot/kobuki_base_ros2/install/ecl_utilities:/home/fbot/kobuki_base_ros2/install/ecl_converters:/home/fbot/kobuki_base_ros2/install/ecl_exceptions:/home/fbot/kobuki_base_ros2/install/ecl_concepts:/home/fbot/kobuki_base_ros2/install/ecl_type_traits:/home/fbot/kobuki_base_ros2/install/ecl_errors:/home/fbot/kobuki_base_ros2/install/ecl_mpl:/home/fbot/kobuki_base_ros2/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/fbot/kobuki_base_ros2/install/ecl_formatters/lib:/home/fbot/kobuki_base_ros2/install/ecl_exceptions/lib:/home/fbot/kobuki_base_ros2/install/ecl_type_traits/lib:/home/fbot/kobuki_base_ros2/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/fbot/kobuki_base_ros2/install/ecl_type_traits/bin:/home/fbot/kobuki_base_ros2/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/fbot/kobuki_base_ros2/build/ecl_containers

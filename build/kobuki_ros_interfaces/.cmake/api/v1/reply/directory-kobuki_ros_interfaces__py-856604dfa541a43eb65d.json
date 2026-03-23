@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "kobuki_ros_interfaces__py",
+		"source" : "/home/fbot/kobuki_base_ros2/build/kobuki_ros_interfaces/kobuki_ros_interfaces__py"
+	}
+}

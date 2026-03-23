@@ -1,0 +1,75 @@
+[0.042s] Invoking command in '/home/fbot/kobuki_base_ros2/build/ecl_time': AMENT_PREFIX_PATH=/home/fbot/kobuki_base_ros2/install/ecl_time_lite:/home/fbot/kobuki_base_ros2/install/ecl_exceptions:/home/fbot/kobuki_base_ros2/install/ecl_errors:/home/fbot/kobuki_base_ros2/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fbot/kobuki_base_ros2/install/ecl_time_lite:/home/fbot/kobuki_base_ros2/install/ecl_exceptions:/home/fbot/kobuki_base_ros2/install/ecl_errors:/home/fbot/kobuki_base_ros2/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/fbot/kobuki_base_ros2/install/ecl_time_lite/lib:/home/fbot/kobuki_base_ros2/install/ecl_exceptions/lib:/home/fbot/kobuki_base_ros2/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/fbot/kobuki_base_ros2/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/fbot/kobuki_base_ros2/build/ecl_time -- -j12 -l12
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target ecl_time[0m
+[0.082s] [  5%] Built target gtest
+[0.082s] [ 11%] Built target gtest_main
+[0.087s] [ 47%] Built target ecl_time
+[0.099s] [35m[1mConsolidate compiler generated dependencies of target ecl_test_timestamp[0m
+[0.099s] [35m[1mConsolidate compiler generated dependencies of target ecl_test_sleep[0m
+[0.099s] [35m[1mConsolidate compiler generated dependencies of target ecl_test_cpuwatch_rt[0m
+[0.099s] [35m[1mConsolidate compiler generated dependencies of target ecl_test_frequency[0m
+[0.099s] [35m[1mConsolidate compiler generated dependencies of target ecl_test_time_data[0m
+[0.099s] [35m[1mConsolidate compiler generated dependencies of target ecl_test_snooze[0m
+[0.100s] [35m[1mConsolidate compiler generated dependencies of target ecl_test_stopwatch[0m
+[0.102s] [35m[1mConsolidate compiler generated dependencies of target ecl_time_example_sleep[0m
+[0.102s] [35m[1mConsolidate compiler generated dependencies of target ecl_time_example_random_number_generator[0m
+[0.111s] [ 52%] Built target ecl_test_timestamp
+[0.111s] [ 58%] Built target ecl_test_cpuwatch_rt
+[0.111s] [ 70%] Built target ecl_test_sleep
+[0.111s] [ 70%] Built target ecl_test_frequency
+[0.116s] [ 76%] Built target ecl_test_snooze
+[0.117s] [ 82%] Built target ecl_test_time_data
+[0.117s] [ 88%] Built target ecl_time_example_sleep
+[0.118s] [ 94%] Built target ecl_time_example_random_number_generator
+[0.118s] [100%] Built target ecl_test_stopwatch
+[0.130s] Invoked command in '/home/fbot/kobuki_base_ros2/build/ecl_time' returned '0': AMENT_PREFIX_PATH=/home/fbot/kobuki_base_ros2/install/ecl_time_lite:/home/fbot/kobuki_base_ros2/install/ecl_exceptions:/home/fbot/kobuki_base_ros2/install/ecl_errors:/home/fbot/kobuki_base_ros2/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fbot/kobuki_base_ros2/install/ecl_time_lite:/home/fbot/kobuki_base_ros2/install/ecl_exceptions:/home/fbot/kobuki_base_ros2/install/ecl_errors:/home/fbot/kobuki_base_ros2/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/fbot/kobuki_base_ros2/install/ecl_time_lite/lib:/home/fbot/kobuki_base_ros2/install/ecl_exceptions/lib:/home/fbot/kobuki_base_ros2/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/fbot/kobuki_base_ros2/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/fbot/kobuki_base_ros2/build/ecl_time -- -j12 -l12
+[0.132s] Invoking command in '/home/fbot/kobuki_base_ros2/build/ecl_time': AMENT_PREFIX_PATH=/home/fbot/kobuki_base_ros2/install/ecl_time_lite:/home/fbot/kobuki_base_ros2/install/ecl_exceptions:/home/fbot/kobuki_base_ros2/install/ecl_errors:/home/fbot/kobuki_base_ros2/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fbot/kobuki_base_ros2/install/ecl_time_lite:/home/fbot/kobuki_base_ros2/install/ecl_exceptions:/home/fbot/kobuki_base_ros2/install/ecl_errors:/home/fbot/kobuki_base_ros2/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/fbot/kobuki_base_ros2/install/ecl_time_lite/lib:/home/fbot/kobuki_base_ros2/install/ecl_exceptions/lib:/home/fbot/kobuki_base_ros2/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/fbot/kobuki_base_ros2/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/fbot/kobuki_base_ros2/build/ecl_time
+[0.137s] -- Install configuration: ""
+[0.137s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/share/ecl_time/environment/library_path.sh
+[0.137s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/share/ecl_time/environment/library_path.dsv
+[0.137s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/share/ament_index/resource_index/package_run_dependencies/ecl_time
+[0.137s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/share/ament_index/resource_index/parent_prefix_path/ecl_time
+[0.137s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/share/ecl_time/environment/ament_prefix_path.sh
+[0.137s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/share/ecl_time/environment/ament_prefix_path.dsv
+[0.137s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/share/ecl_time/environment/path.sh
+[0.137s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/share/ecl_time/environment/path.dsv
+[0.138s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/share/ecl_time/local_setup.bash
+[0.138s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/share/ecl_time/local_setup.sh
+[0.138s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/share/ecl_time/local_setup.zsh
+[0.138s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/share/ecl_time/local_setup.dsv
+[0.138s] -- Installing: /home/fbot/kobuki_base_ros2/install/ecl_time/share/ecl_time/package.dsv
+[0.138s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/share/ament_index/resource_index/packages/ecl_time
+[0.138s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/share/ecl_time/cmake/ecl_timeExport.cmake
+[0.138s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/share/ecl_time/cmake/ecl_timeExport-noconfig.cmake
+[0.138s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/share/ecl_time/cmake/ament_cmake_export_targets-extras.cmake
+[0.138s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/share/ecl_time/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.139s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/share/ecl_time/cmake/ament_cmake_export_libraries-extras.cmake
+[0.139s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/share/ecl_time/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.139s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/share/ecl_time/cmake/ecl_timeConfig.cmake
+[0.139s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/share/ecl_time/cmake/ecl_timeConfig-version.cmake
+[0.139s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/share/ecl_time/package.xml
+[0.139s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/include/ecl/time.hpp
+[0.139s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/include/ecl/time/cpuwatch.hpp
+[0.139s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/include/ecl/time/cpuwatch_rt.hpp
+[0.139s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/include/ecl/time/duration.hpp
+[0.139s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/include/ecl/time/frequency.hpp
+[0.139s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/include/ecl/time/macros.hpp
+[0.139s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/include/ecl/time/random_number_generator.hpp
+[0.139s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/include/ecl/time/sleep.hpp
+[0.139s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/include/ecl/time/sleep_pos.hpp
+[0.139s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/include/ecl/time/sleep_win.hpp
+[0.139s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/include/ecl/time/snooze.hpp
+[0.139s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/include/ecl/time/snooze_pos.hpp
+[0.139s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/include/ecl/time/snooze_win.hpp
+[0.140s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/include/ecl/time/stopwatch.hpp
+[0.140s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/include/ecl/time/time_data.hpp
+[0.140s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/include/ecl/time/timestamp.hpp
+[0.140s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/include/ecl/time/timestamp_base.hpp
+[0.140s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/include/ecl/time/timestamp_pos.hpp
+[0.140s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/include/ecl/time/timestamp_win.hpp
+[0.140s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/lib/libecl_time.so.1.2.1
+[0.140s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/lib/libecl_time.so
+[0.140s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/lib/ecl_time/demo_random_number_generator
+[0.140s] -- Up-to-date: /home/fbot/kobuki_base_ros2/install/ecl_time/lib/ecl_time/demo_sleep
+[0.142s] Invoked command in '/home/fbot/kobuki_base_ros2/build/ecl_time' returned '0': AMENT_PREFIX_PATH=/home/fbot/kobuki_base_ros2/install/ecl_time_lite:/home/fbot/kobuki_base_ros2/install/ecl_exceptions:/home/fbot/kobuki_base_ros2/install/ecl_errors:/home/fbot/kobuki_base_ros2/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fbot/kobuki_base_ros2/install/ecl_time_lite:/home/fbot/kobuki_base_ros2/install/ecl_exceptions:/home/fbot/kobuki_base_ros2/install/ecl_errors:/home/fbot/kobuki_base_ros2/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/fbot/kobuki_base_ros2/install/ecl_time_lite/lib:/home/fbot/kobuki_base_ros2/install/ecl_exceptions/lib:/home/fbot/kobuki_base_ros2/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/fbot/kobuki_base_ros2/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/fbot/kobuki_base_ros2/build/ecl_time
