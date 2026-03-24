@@ -25,7 +25,7 @@ Make sure you have:
 
 ```bash id="4q9k8p"
 cd ~/ros2_ws/src
-git clone https://github.com/KauaOliveira11/KOBUKY-ROS2-HUMBLE.git
+git clone --recursive https://github.com/KauaOliveira11/KOBUKY-ROS2-HUMBLE.git
 ```
 
 ---
