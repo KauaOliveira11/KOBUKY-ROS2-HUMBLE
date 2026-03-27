@@ -1,0 +1,18 @@
+[submodule "KOBUKY-ROS2-HUMBLE/src/kobuki_core"]
+	path = KOBUKY-ROS2-HUMBLE/src/kobuki_core
+	url = https://github.com/KauaOliveira11/kobuki_core
+[submodule "KOBUKY-ROS2-HUMBLE/src/kobuki_ros"]
+	path = KOBUKY-ROS2-HUMBLE/src/kobuki_ros
+	url = https://github.com/KauaOliveira11/kobuki_ros
+[submodule "KOBUKY-ROS2-HUMBLE/src/ecl_core"]
+	path = KOBUKY-ROS2-HUMBLE/src/ecl_core
+	url = https://github.com/KauaOliveira11/ecl_core
+[submodule "KOBUKY-ROS2-HUMBLE/src/ecl_lite"]
+	path = KOBUKY-ROS2-HUMBLE/src/ecl_lite
+	url = https://github.com/KauaOliveira11/ecl_lite
+[submodule "KOBUKY-ROS2-HUMBLE/src/cmd_vel_mux"]
+	path = KOBUKY-ROS2-HUMBLE/src/cmd_vel_mux
+	url = https://github.com/KauaOliveira11/cmd_vel_mux
+[submodule "KOBUKY-ROS2-HUMBLE/src/kobuki_ros_interfaces"]
+	path = KOBUKY-ROS2-HUMBLE/src/kobuki_ros_interfaces
+	url = https://github.com/KauaOliveira11/kobuki_ros_interfaces
